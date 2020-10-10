@@ -111,7 +111,7 @@ def Carousel_Template():
                 CarouselColumn(
                     thumbnail_image_url='https://imgur.com/mWCB7jp.png',
                     title='ID-card location',
-                    text='check last ID-CARD l0cation',
+                    text='check last ID-CARD location',
                     actions=[
                         PostbackTemplateAction(
                             label='回傳一個訊息',
