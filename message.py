@@ -113,59 +113,35 @@ def Carousel_Template():
                     title='ID-card location',
                     text='check last ID-CARD location',
                     actions=[
-                        PostbackTemplateAction(
-                            label='回傳一個訊息',
-                            data='這是ID=2'
-                        ),
                         MessageTemplateAction(
-                            label='用戶發送訊息',
-                            text='我知道這是2'
-                        ),
-                        URITemplateAction(
-                            label='進入2的網頁',
-                            uri='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Number_2_in_light_blue_rounded_square.svg/200px-Number_2_in_light_blue_rounded_square.svg.png'
+                            label='tap to check',
+                            text='請輸入密碼+cl'
                         )
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://imgur.com/mWCB7jp.png',
-                    title='這是第二塊模板',
-                    text='副標題可以自己改',
+                    thumbnail_image_url='https://imgur.com/9ArbR2S.png',
+                    title='Wallet location',
+                    text='check present wallet location ',
                     actions=[
-                        PostbackTemplateAction(
-                            label='回傳一個訊息',
-                            data='這是ID=2'
-                        ),
                         MessageTemplateAction(
-                            label='用戶發送訊息',
-                            text='我知道這是2'
-                        ),
-                        URITemplateAction(
-                            label='進入2的網頁',
-                            uri='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Number_2_in_light_blue_rounded_square.svg/200px-Number_2_in_light_blue_rounded_square.svg.png'
+                            label='tap to check',
+                            text='請輸入密碼+wl'
                         )
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://imgur.com/mWCB7jp.png',
-                    title='這是第三個模塊',
-                    text='最多可以放十個',
+                    thumbnail_image_url='https://imgur.com/sOeKbYj.png',
+                    title='Cost',
+                    text='check your cost info',
                     actions=[
-                        PostbackTemplateAction(
-                            label='回傳一個訊息',
-                            data='這是ID=3'
-                        ),
                         MessageTemplateAction(
-                            label='用戶發送訊息',
-                            text='我知道這是3'
-                        ),
-                        URITemplateAction(
-                            label='uri2',
-                            uri='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Number_3_in_yellow_rounded_square.svg/200px-Number_3_in_yellow_rounded_square.svg.png'
+                            label='tap to check',
+                            text='請輸入密碼+co'
                         )
                     ]
                 )
-            ], image_aspect_ratio = '2:3', image_size = 'cover'
+            ], image_aspect_ratio = 'rectangle', image_size = 'cover'
         )
     )
     return message
