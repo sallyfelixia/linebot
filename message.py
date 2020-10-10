@@ -112,7 +112,7 @@ def Carousel_Template():
                     thumbnail_image_url='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuo7n2_HNSFuT3T7Z9PUZmn1SDM6G6-iXfRC3FxdGTj7X1Wr0RzA',
                     title='ID-card location',
                     text='check last ID-CARD l0cation',
-                    actions=actions=[
+                    actions=[
                         PostbackTemplateAction(
                             label='回傳一個訊息',
                             data='這是ID=2'
