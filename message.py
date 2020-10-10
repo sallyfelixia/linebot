@@ -109,7 +109,7 @@ def Carousel_Template():
         template=CarouselTemplate(
             columns=[
                 CarouselColumn(
-                    thumbnail_image_url='https://imgur.com/5NqGKmh.png',
+                    thumbnail_image_url='https://imgur.com/3whWd6A',
                     title='ID-card location',
                     text='check last ID-CARD location',
                     actions=[
@@ -120,24 +120,46 @@ def Carousel_Template():
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://imgur.com/9ArbR2S.png',
+                    thumbnail_image_url='https://imgur.com/Ev4ToWr.png',
                     title='Wallet location',
                     text='check present wallet location ',
                     actions=[
                         MessageTemplateAction(
                             label='tap to check',
-                            text='請輸入密碼+wl'
+                            text='Chedk present wallet location'
                         )
                     ]
                 ),
                 CarouselColumn(
-                    thumbnail_image_url='https://imgur.com/sOeKbYj.png',
+                    thumbnail_image_url='https://imgur.com/5NqGKmh.png',
                     title='Cost',
                     text='check your cost info',
                     actions=[
                         MessageTemplateAction(
                             label='tap to check',
-                            text='請輸入密碼+co'
+                            text='Check cost info'
+                        )
+                    ]
+                ),
+                CarouselColumn(
+                    thumbnail_image_url='https://imgur.com/oczX1yI.png',
+                    title='Light',
+                    text='turn on signal light',
+                    actions=[
+                        MessageTemplateAction(
+                            label='tap to light up',
+                            text='turn on signal light'
+                        )
+                    ]
+                ),
+                CarouselColumn(
+                    thumbnail_image_url='https://imgur.com/McGA5nL.png',
+                    title='Password setting',
+                    text='set wallet password',
+                    actions=[
+                        MessageTemplateAction(
+                            label='tap to set',
+                            text='set wallet password'
                         )
                     ]
                 )
