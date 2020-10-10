@@ -109,13 +109,13 @@ def Carousel_Template():
         template=CarouselTemplate(
             columns=[
                 CarouselColumn(
-                    thumbnail_image_url='https://imgur.com/mWCB7jp.png',
+                    thumbnail_image_url='https://imgur.com/MSQuKIH.png',
                     title='ID-card location',
                     text='check last ID-CARD location',
                     actions=[
                         MessageTemplateAction(
                             label='tap to check',
-                            text='請輸入密碼+cl'
+                            text='check last ID-CARD location'
                         )
                     ]
                 ),
