@@ -112,10 +112,18 @@ def Carousel_Template():
                     thumbnail_image_url='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuo7n2_HNSFuT3T7Z9PUZmn1SDM6G6-iXfRC3FxdGTj7X1Wr0RzA',
                     title='ID-card location',
                     text='check last ID-CARD l0cation',
-                    actions=[
+                    actions=actions=[
+                        PostbackTemplateAction(
+                            label='回傳一個訊息',
+                            data='這是ID=2'
+                        ),
                         MessageTemplateAction(
                             label='用戶發送訊息',
-                            text='輸入密碼 + CARD'
+                            text='我知道這是2'
+                        ),
+                        URITemplateAction(
+                            label='進入2的網頁',
+                            uri='https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Number_2_in_light_blue_rounded_square.svg/200px-Number_2_in_light_blue_rounded_square.svg.png'
                         )
                     ]
                 ),
