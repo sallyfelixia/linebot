@@ -165,7 +165,7 @@ def Carousel_Template():
                         )
                     ]
                 )
-            ], image_aspect_ratio = 'rectangle', image_size = 'cover'
+            ], image_aspect_ratio = '2:3', image_size = 'cover'
         )
     )
     return message
