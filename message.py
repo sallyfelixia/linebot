@@ -109,7 +109,7 @@ def Carousel_Template():
         template=CarouselTemplate(
             columns=[
                 CarouselColumn(
-                    thumbnail_image_url='https://imgur.com/MSQuKIH.png',
+                    thumbnail_image_url='https://imgur.com/5NqGKmh.png',
                     title='ID-card location',
                     text='check last ID-CARD location',
                     actions=[
